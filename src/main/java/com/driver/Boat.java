@@ -4,8 +4,9 @@ public class Boat implements WaterVehicle{
     public String name;
     public int capacity;
 
-    public Boat(){
-
+    public Boat(String name, int capacity){
+        this.name = name;
+        this.capacity = capacity;
     }
 
     @Override
